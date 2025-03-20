@@ -1,0 +1,48 @@
+.scrollArea {
+  overflow: hidden;
+  padding-bottom: 200;
+  background: rgb(186, 182, 255);
+  background: linear-gradient(90deg, rgba(186, 182, 255, 1) 0%, rgba(247, 236, 255, 1) 35%, rgba(202, 246, 255, 1) 100%);
+}
+
+.container {
+  margin: 100px auto;
+  padding-bottom: 200px;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+  margin-top: 130px;
+}
+
+.splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* clip-path: path("M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z"); */
+}
+
+.card {
+  width: 300px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #f5f5f5;
+  padding: 20px;
+  box-shadow:
+    0 0 1px hsl(0deg 0% 0% / 0.075),
+    0 0 2px hsl(0deg 0% 0% / 0.075),
+    0 0 4px hsl(0deg 0% 0% / 0.075),
+    0 0 8px hsl(0deg 0% 0% / 0.075),
+    0 0 16px hsl(0deg 0% 0% / 0.075);
+  transform-origin: 10% 60%;
+}
